@@ -27,7 +27,7 @@ function Contact() {
                         </div>
                         <div className="from-box-input-container-contact">
                             <h3 className="text-common-lab text-four-color">Nội dung</h3>
-                            <input className="input-contact-request" type="text" placeholder="Nội dung của bạn ..." />
+                            <textarea  class="textarea-contact-request"  placeholder="Nội dung của bạn ..."></textarea>
                         </div>
                         <div className="box-button-contact">
                             <img src="/assets/Icons/Message.png" alt="" />

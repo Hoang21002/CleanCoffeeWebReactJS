@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({img}) => {
+const Card = ({ img }) => {
     return (
         <div className="container-list-xephang-from">
             <img className="card-item-img" src={img} alt="" />
@@ -14,7 +14,11 @@ const Card = ({img}) => {
                     <img className="icon-star" src="/assets/Icons/Star.png" alt="" />
                     <img className="icon-star" src="/assets/Icons/Star.png" alt="" />
                 </div>
-                <p className="text-four-color">4.7 / 5.0</p>
+                <p class="text-four-color">4.7 / 5.0</p>
+                <div class="box-button-like-xephang">
+                    <img src="/assets/Icons/Love.png" alt="" />
+                    <button class="bnt-like-xephang text-common-lab text-main-color">Yêu thích</button>
+                </div>
             </div>
         </div>
     )

@@ -7,8 +7,6 @@ function XepHang() {
         <Fragment>
             <Menu />
             <div className="slider-xephang">
-                {/* <source src="/assets/video/TrailerCoffee.mp4" type="video/mp4"/> */}
-                {/* <video autoplay muted loop> <source src="/assets/video/TrailerCoffee.mp4" /></video> */}
                 <video src="/assets/video/TrailerCoffee.mp4" autoplay muted loop />
                 <div className="slider-xephang-text">
                     <h3 className="text-main-color slider-xephang-text-1">Chào mừng bạn đến với truyxuatcafe.com.vn</h3>
