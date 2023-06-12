@@ -14,7 +14,9 @@ import ForgotPass from './pages/ForgotPass/ForgotPass';
 import ChangePass from './pages/ForgotPass/ChangePass';
 import EnterCode from './pages/ForgotPass/EnterCode';
 import Success from './pages/ForgotPass/Success';
-import Account from './pages/Account';
+import AccountUser from './pages/AccountUser';
+import AccountAdmin from './pages/AdminPages/AccountAdmin';
+
 
 
 function App() {
@@ -33,7 +35,8 @@ function App() {
           <Route path='/entercode' element={<EnterCode />} />
           <Route path='/changepass' element={<ChangePass />} />
           <Route path='/success' element={<Success />} />
-          <Route path='/account' element={<Account />} />
+          <Route path='/account' element={<AccountUser />} />
+          <Route path='/admin' element={<AccountAdmin />} />
 
         </Routes>
       </Router>

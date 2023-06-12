@@ -221,7 +221,10 @@ html {
   gap: 10px;
   align-items: center;
 }
-
+.text-logo {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
 header {
   position: fixed;
   top: 0;
@@ -1078,63 +1081,185 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   margin-right: auto;
   margin-top: calc(6.8rem + 42px);
 }
-.account .box-account .from-account {
+.from-account {
   width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 4rem;
+  background-color: rgba(212, 212, 212, 0.66);
 }
-.account .box-account .from-account .from-heading-account {
+.from-account .from-heading-account {
   display: flex;
   justify-content: space-between;
   width: 90%;
   align-items: center;
 }
-.account .box-account .from-account .from-between-account {
+.from-account .from-between-account {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.account .box-account .from-account .from-between-account .img-account {
+.from-account .from-between-account .img-account {
   margin-top: 28px;
   max-width: 38.4rem;
 }
-.account .box-account .from-account .from-between-account .from-input-account {
+.from-account .from-between-account .from-input-account {
   width: 45%;
 }
-.account .box-account .from-account .from-between-account .from-input-account .input-account {
+.from-account .from-between-account .from-input-account .input-account {
   padding: 16px 10px;
   min-width: 100%;
   border-radius: 16px;
   margin-top: 4px;
   background-color: #FFFFFF;
 }
-.account .box-account .from-account .from-end-account {
+.from-account .from-end-account {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 72px;
 }
-.account .box-account .from-account .from-end-account .bnt-upload-account {
+.from-account .from-end-account .bnt-upload-account {
   border: 1px solid #000000;
   border-radius: 4px;
   background-color: #FFFFFF;
   padding: 10px;
   min-width: 38.4rem;
 }
-.account .box-account .from-account .from-end-account .box-button-account {
+.from-account .from-end-account .box-button-account {
   display: flex;
   justify-content: space-between;
   width: 45%;
 }
-.account .box-account .from-account .from-end-account .box-button-account .bnt-edit-save-account {
+.from-account .from-end-account .box-button-account .bnt-edit-save-account {
   width: 45%;
   padding: 10px;
   border-radius: 4px;
 }
+.nav-admin {
+  width: 25.6rem;
+  background-color: #FDFFF5;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  left: 0;
+}
+.nav-admin .nav-logo-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 32px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.nav-admin .box-text-nav-admin {
+  display: flex;
+  padding: 10px;
+  gap: 0.8rem;
+  align-items: center;
+  margin-bottom: 36px;
+  cursor: pointer;
+}
+.nav-admin .box-text-nav-admin:hover {
+  background-color: #532E1C;
+  color: #FFFFFF;
+}
+
+.header-admin {
+  margin-left: 25.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 11.2rem;
+  padding-right: 11.2rem;
+  height: 6.8rem;
+  border: none;
+  position: fixed;
+  background-color: #F5F5F5;
+  margin-bottom: 30.4rem;
+}
+.header-admin .box-icon-header-admin {
+  display: flex;
+  gap: 3.2rem;
+}
+.header-admin .box-icon-header-admin:hover {
+  cursor: pointer;
+}
+
+.container-admin {
+  background-color: #F5F5F5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25.6rem;
+}
+/* .container-admin .from-admin {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  margin-top: calc(6.8rem + 40px);
+  background-color: rgba(212, 212, 212, 0.66);
+}
+.container-admin .from-admin .from-heading-admin {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+.container-admin .from-admin .from-between-admin {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-admin .from-admin .from-between-admin .img-admin {
+  margin-top: 28px;
+  max-width: 38.4rem;
+}
+.container-admin .from-admin .from-between-admin .from-input-admin {
+  width: 45%;
+}
+.container-admin .from-admin .from-between-admin .from-input-admin .input-admin {
+  padding: 16px 10px;
+  min-width: 100%;
+  border-radius: 16px;
+  margin-top: 4px;
+  background-color: #FFFFFF;
+}
+.container-admin .from-admin .from-end-admin {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 72px;
+}
+.container-admin .from-admin .from-end-admin .bnt-upload-admin {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  min-width: 38.4rem;
+}
+.container-admin .from-admin .from-end-admin .box-button-admin {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+.container-admin .from-admin .from-end-admin .box-button-admin .bnt-edit-save-admin {
+  width: 45%;
+  padding: 10px;
+  border-radius: 4px;
+} */
 
 /*# sourceMappingURL=app.css.map */
