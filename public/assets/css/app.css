@@ -10,6 +10,10 @@
   list-style: none;
 }
 
+a {
+  color: #191919;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -177,6 +181,45 @@ html {
 
 .text-four-color {
   color: #0F0F0F;
+}
+
+.text-unline {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-bot-16 {
+  margin-bottom: 16px;
+}
+
+.margin-top-28 {
+  margin-top: 28px;
+}
+
+.margin-bot-32 {
+  margin-bottom: 32px;
+}
+
+.margin-bot-48 {
+  margin-bottom: 48px;
+}
+
+.margin-top-4 {
+  margin-top: 4px;
+}
+
+.margin-top-8 {
+  margin-top: 8px;
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
 }
 
 header {
@@ -805,12 +848,12 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   width: 30%;
   display: flex;
   margin-right: -64px;
+  z-index: 10;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   height: 80vh;
   justify-content: center;
-  z-index: 10;
   background: #FFFFFF;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
 }
@@ -865,6 +908,233 @@ footer .footer-bot .footer-icon-contact .icon-footer {
 }
 .container-contact .box-container-request .box-button-contact .bnt-contact-request {
   background-color: #0F0F0F;
+}
+
+.sign-up {
+  display: flex;
+}
+.sign-up .from-sign-up {
+  background-color: #FFFFFF;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 120px;
+}
+.sign-up .from-sign-up .heading-text-sign-up {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.sign-up .from-sign-up .input-sign-up {
+  margin-bottom: 24px;
+  margin-top: 4px;
+  padding: 16px 10px;
+  border-radius: 16px;
+  background-color: #DDDDDD;
+}
+.sign-up .from-sign-up .bnt-sign-up {
+  padding: 16px 10px;
+  border-radius: 4px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  background-color: #0F0F0F;
+}
+.sign-up .from-sign-up .btn-sign-in {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-top: 4px;
+}
+.sign-up .from-sign-up .box-select-sign-up {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-up .background-img-sign-up {
+  width: 60%;
+  background: url(/assets/img/background-sign-up-cf.png) center/cover no-repeat;
+}
+
+.forgot-pass {
+  display: flex;
+  height: 100vh;
+}
+.forgot-pass .background-img-forgot-pass {
+  width: 50%;
+  background: url(/assets/img/background-forgot-pas-cf.png) center/cover no-repeat;
+}
+.forgot-pass .box-from-input-forgot-pass {
+  width: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+.forgot-pass .box-from-input-forgot-pass .from-input-forgot-pass {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 80px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+.forgot-pass .box-from-input-forgot-pass .from-input-forgot-pass .head-icon {
+  width: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.forgot-pass .box-from-input-forgot-pass .from-input-forgot-pass .input-forgot-pass {
+  padding: 16px 10px;
+  background-color: #DDDDDD;
+  border-radius: 4px;
+}
+.forgot-pass .box-from-input-forgot-pass .from-input-forgot-pass .bnt-forgot-pass {
+  margin-bottom: 16px;
+  padding: 14px 10px;
+}
+.forgot-pass .box-from-input-forgot-pass .from-input-forgot-pass .bnt-forgot-pass_submit {
+  border-radius: 4px;
+  background-color: #191919;
+}
+.forgot-pass .box-from-input-forgot-pass .from-input-forgot-pass .bnt-forgot-pass_back {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.sign-in {
+  display: flex;
+  align-items: center;
+}
+.sign-in .background-sign-in {
+  width: 60%;
+  height: 100vh;
+  background: url(/assets/img/background-sign-in-cf.png) center/cover no-repeat;
+}
+.sign-in .from-sign-in {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 36px;
+  width: 24%;
+}
+.sign-in .from-sign-in .text-heading-login {
+  margin-bottom: 40px;
+}
+.sign-in .from-sign-in .input-sign-in {
+  padding: 16px 10px;
+  margin-bottom: 20px;
+  margin-top: 4px;
+  border-radius: 16px;
+  background-color: #DDDDDD;
+}
+.sign-in .from-sign-in .box-get-pass {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-in .from-sign-in .box-get-pass .box-remempass {
+  display: flex;
+  gap: 4px;
+}
+.sign-in .from-sign-in .box-get-pass .box-remempass .input-check-box-remem {
+  width: 2rem;
+}
+.sign-in .from-sign-in .bnt-login-sign-in {
+  width: 100%;
+  margin-top: 56px;
+  padding: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  background-color: #0F0F0F;
+  border-radius: 4px;
+}
+.sign-in .from-sign-in .box-icon-sign-in {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 68px;
+}
+.sign-in .from-sign-in .btn-sign-up-sign-in {
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 1px solid #000000;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  width: 30%;
+}
+
+.account .box-account {
+  width: 80%;
+  background-color: #D4D4D4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(6.8rem + 42px);
+}
+.account .box-account .from-account {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+}
+.account .box-account .from-account .from-heading-account {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+.account .box-account .from-account .from-between-account {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.account .box-account .from-account .from-between-account .img-account {
+  margin-top: 28px;
+  max-width: 38.4rem;
+}
+.account .box-account .from-account .from-between-account .from-input-account {
+  width: 45%;
+}
+.account .box-account .from-account .from-between-account .from-input-account .input-account {
+  padding: 16px 10px;
+  min-width: 100%;
+  border-radius: 16px;
+  margin-top: 4px;
+  background-color: #FFFFFF;
+}
+.account .box-account .from-account .from-end-account {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 72px;
+}
+.account .box-account .from-account .from-end-account .bnt-upload-account {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  min-width: 38.4rem;
+}
+.account .box-account .from-account .from-end-account .box-button-account {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+.account .box-account .from-account .from-end-account .box-button-account .bnt-edit-save-account {
+  width: 45%;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 /*# sourceMappingURL=app.css.map */

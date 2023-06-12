@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 import Index from './pages/Index';
 import About from './pages/About';
@@ -7,6 +7,14 @@ import KhamPha from './pages/KhamPha';
 import XepHang from './pages/XepHang';
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import SignIn from './pages/Sign/SignIn';
+import SignUp from './pages/Sign/SignUp';
+import ForgotPass from './pages/ForgotPass/ForgotPass';
+
+import ChangePass from './pages/ForgotPass/ChangePass';
+import EnterCode from './pages/ForgotPass/EnterCode';
+import Success from './pages/ForgotPass/Success';
+import Account from './pages/Account';
 
 
 function App() {
@@ -19,7 +27,14 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/khampha' element={<KhamPha />} />
           <Route path='/xephang' element={<XepHang />} />
-          
+          <Route path='/signin' element={<SignIn />} />
+          <Route path='/signup' element={<SignUp />} />
+          <Route path='/forgotpass' element={<ForgotPass />} />
+          <Route path='/entercode' element={<EnterCode />} />
+          <Route path='/changepass' element={<ChangePass />} />
+          <Route path='/success' element={<Success />} />
+          <Route path='/account' element={<Account />} />
+
         </Routes>
       </Router>
     </div>

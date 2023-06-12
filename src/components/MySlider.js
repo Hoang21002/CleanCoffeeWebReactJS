@@ -33,7 +33,7 @@ const MySlider = () => {
       };
 
     return (
-        <div className="container-list-xephanh ">
+        <div className="container-list-xephanh">
 
             <Slider {...settings}>
                 {data.map((el, index) => <Card key={index} img={el.img} />)}

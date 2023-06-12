@@ -29,7 +29,7 @@ function Menu() {
                     </div>
                     <div className="nav-login">
                         <img className="" src="assets/Icons/Language.png" alt="" />
-                        <button>Đăng nhập</button>
+                        <button><Link className="" to="/signin">Đăng nhập</Link></button>
                     </div>
                 </nav>
             </header>
