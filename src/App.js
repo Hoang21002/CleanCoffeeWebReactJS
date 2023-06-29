@@ -16,6 +16,7 @@ import EnterCode from './pages/ForgotPass/EnterCode';
 import Success from './pages/ForgotPass/Success';
 import AccountUser from './pages/AccountUser';
 import AccountAdmin from './pages/AdminPages/AccountAdmin';
+import ThumuaAdmin from './pages/AdminPages/ThumuaAdmin';
 
 
 
@@ -37,6 +38,7 @@ function App() {
           <Route path='/success' element={<Success />} />
           <Route path='/account' element={<AccountUser />} />
           <Route path='/admin' element={<AccountAdmin />} />
+          <Route path='/thumua' element={<ThumuaAdmin />} />
 
         </Routes>
       </Router>

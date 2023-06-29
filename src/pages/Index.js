@@ -5,9 +5,24 @@ import Footer from "../components/Footer";
 function Index() {
     return (
         <Fragment>
-        <Menu />
+            <Menu />
             {/* <!-- ------------------------------------SLIDER----------------------------------------> */}
-            <div className="slider">
+            <div className="slider-xephang">
+                <video src="/assets/video/TrailerCoffee.mp4" autoPlay={"autoplay"} muted loop ></video>
+                <div className="slider-xephang-text">
+                    <h3 className="text-main-color slider-xephang-text-1">Chào mừng bạn đến với truyxuatcafe.com.vn</h3>
+                    <h1 className="text-main-color slider-xephang-text-2">CÀ PHÊ SẠCH TUYÊN <br /> CHIẾN VỚI CÀ PHÊ BẨN. </h1>
+                    <p className="text-main-color slider-xephang-text-3">Hãy cùng website khám phá những thức uống cafe của Việt Nam</p>
+                    <div class="box-button-trangchu">
+                        <button class="text-thir-color slider-xephang-bnt">Khám phá</button>
+                        <div class="btn-input">
+                            <img class="input-code-trangchu" src="/assets/Icons/Code.png" alt="" />
+                            <input type="text" placeholder="Nhập mã sản phẩm" class="text-thir-color input-code-trangchu" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <div className="slider">
                 <div className="slider-from">
                     <div className="slider-content">
                         <div className="slider-content-text">
@@ -28,82 +43,81 @@ function Index() {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
             {/* <!-- ------------------------------------SLIDER----------------------------------------> */}
 
 
             {/* <!-- ------------------------------------CONTAINER----------------------------------------> */}
-            <div className="container">
-                <h1 className="text-heading-container text-thir-color">Quá trình đến tay người tiêu dùng</h1>
-
-                <div className="container-content">
-
-                    <div className="container-content-left">
-                        <div className="content-left-list">
-                            <div className="content-list-top">
-                                <div className="number">
-                                    <p className="text-main-color">1</p>
-                                </div>
-                                <h3 className="text-four-color">Gieo hạt</h3>
-                            </div>
-                            <p>Ngày gieo hạt: 4/12/2022</p>
+            <div class="container">
+                <div class="box-text-container wow animate__animated animate__fadeInLeft ">
+                    <h1 class="text-heading2 text-thir-color margin-bot-60 ">VÌ SAO NÊN DÙNG ỨNG DỤNG TRUY XUẤT
+                        NGUỒN GỐC CAFE ?
+                    </h1>
+                    <p class="text-heading4 text-four-color margin-bot-48">1. Ngăn ngừa sản phẩm giả, kém chất lượng.</p>
+                    <p class="text-heading4 text-four-color margin-bot-48">2. Chất lượng được kiểm định bởi cục An Toàn Thực
+                        Phẩm.</p>
+                    <p class="text-heading4 text-four-color margin-bot-48">3. Tăng sự tin tưởng cho người tiêu dùng</p>
+                    <p class="text-heading4 text-four-color">4. Giúp nâng cao vị thế sản phẩm của các doanh nghiệp Việt trong
+                        lòng người tiêu dùng Việt </p>
+                </div>
+                <div class="box-text-container wow animate__animated animate__fadeInRight">
+                    <img src="/assets/img/img-trangchu.png" alt="" />
+                </div>
+            </div>
+            <div class="container-2">
+                <h1 class="text-heading2 text-thir-color margin-bottom-40">QUÁ TRÌNH TRUY XUẤT</h1>
+                <div class="box-containr-2 wow animate__animated animate__fadeInUp">
+                    <div class="box-text-container-2">
+                        <div class="box-title-text-container-2">
+                            <h1 class="box-number text-heading4">1</h1>
+                            <h1 class="text-heading4">Gieo hạt</h1>
                         </div>
-
-                        <div className="content-left-list">
-                            <div className="content-list-top">
-                                <div className="number">
-                                    <p className="text-main-color">2</p>
-                                </div>
-                                <h3 className="text-four-color">Chăm sóc</h3>
-                            </div>
-                            <p>Thời gian chăm sóc: 3/1/2023 đến 2/4/20223</p>
-                        </div>
-
-                        <div className="content-left-list">
-                            <div className="content-list-top">
-                                <div className="number">
-                                    <p className="text-main-color">3</p>
-                                </div>
-                                <h3 className="text-four-color">Thu hoạch</h3>
-                            </div>
-                            <p>Thời gian thu hoạch: 3/4/2022</p>
-                        </div>
-
-                        <div className="content-left-list">
-                            <div className="content-list-top">
-                                <div className="number">
-                                    <p className="text-main-color">4</p>
-                                </div>
-                                <h3 className="text-four-color">Chế biến</h3>
-                            </div>
-                            <p>Thời gian chế biến: 30/4/2023</p>
-                        </div>
-
-                        <div className="content-left-list">
-                            <div className="content-list-top">
-                                <div className="number">
-                                    <p className="text-main-color">5</p>
-                                </div>
-                                <h3 className="text-four-color">Vận chuyển</h3>
-                            </div>
-                            <p>Thời gian vận chuyển: 19/9/2023</p>
-                        </div>
-
-                        <div className="content-left-list">
-                            <div className="content-list-top">
-                                <div className="number">
-                                    <p className="text-main-color">6</p>
-                                </div>
-                                <h3 className="text-four-color">Phân phối </h3>
-                            </div>
-                            <p>Thời gian phân phối : 3/10/2023</p>
-                        </div>
+                        <p class="text-body1">Quá trình gieo hạt cafe bắt đầu bằng việc chọn lựa các giống hạt cafe phù hợp với
+                            vùng đất và điều kiện khí hậu. Sau đó, các hạt cafe được gieo vào đất và được tưới nước để kích
+                            thích sự nảy mầm</p>
                     </div>
-
-                    <div className="container-content-right">
-                        <img src="assets/img/HomeImg (2).png" alt="" />
+                    <div class="box-text-container-2">
+                        <div class="box-title-text-container-2">
+                            <h1 class="box-number text-heading4">2</h1>
+                            <h1 class="text-heading4">Chăm sóc</h1>
+                        </div>
+                        <p class="text-body1">Quá trình chăm sóc cây cafe bao gồm tưới nước, bón phân, cắt tỉa, phòng chống sâu
+                            bệnh</p>
                     </div>
-
+                    <div class="box-text-container-2">
+                        <div class="box-title-text-container-2">
+                            <h1 class="box-number text-heading4">3</h1>
+                            <h1 class="text-heading4">Thu hoạch</h1>
+                        </div>
+                        <p class="text-body1">Cách thu hoạch thường là bằng tay hoặc sử dụng máy thu hoạch. Khi thu hoạch bằng
+                            tay, người làm việc sẽ cầm dao cắt từng quả cafe một và đặt vào giỏ hoặc túi. Khi thu hoạch bằng
+                            máy, máy sẽ đẩy các quả cafe từ cây xuống mặt đất và sau đó được thu gom lại</p>
+                    </div>
+                    <div class="box-text-container-2">
+                        <div class="box-title-text-container-2">
+                            <h1 class="box-number text-heading4">4</h1>
+                            <h1 class="text-heading4">Chế biến</h1>
+                        </div>
+                        <p class="text-body1">Sau khi thu hoạch, quả cafe sẽ được tách hạt và sau đó rang để tạo ra hạt cà phê
+                            nguyên chất. Quá trình rang cà phê cũng rất quan trọng để tạo ra hương vị và mùi thơm đặc trưng của
+                            từng loại cà phê.</p>
+                    </div>
+                    <div class="box-text-container-2">
+                        <div class="box-title-text-container-2">
+                            <h1 class="box-number text-heading4">5</h1>
+                            <h1 class="text-heading4">Vận chuyển</h1>
+                        </div>
+                        <p class="text-body1">Sau khi rang xong, hạt cà phê sẽ được sàng lọc để loại bỏ các mảnh vụn và hạt
+                            không đều. Cuối cùng, hạt cà phê sẽ được đóng gói và gửi đi để bán cho người tiêu dùng.</p>
+                    </div>
+                    <div class="box-text-container-2">
+                        <div class="box-title-text-container-2">
+                            <h1 class="box-number text-heading4">6</h1>
+                            <h1 class="text-heading4">Phân phối</h1>
+                        </div>
+                        <p class="text-body1">Đây là bước cuối cùng trước khi đến tay người tiêu dùng, những hàng hóa đã được
+                            chế biến và đóng theo những sản phẩm khác nhau sẽ được đưa lên những nơi bán cafe.</p>
+                    </div>
                 </div>
             </div>
             {/* <!-- ------------------------------------CONTAINER----------------------------------------> */}
