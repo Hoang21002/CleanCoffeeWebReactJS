@@ -117,25 +117,25 @@ function About() {
                         <div className="card-founder-about">
                             <img className="img-card-founder-about" src="/assets/img/FounderAboutImg (4).png" alt="" />
                             <h1 className="name-founder-card-about">Đoàn Đình Hoàng</h1>
-                            <p className="title-founder-card-about">Trưởng phòng Công nghệ</p>
+                            <p className="title-founder-card-about">Font-end</p>
                         </div>
 
                         <div className="card-founder-about">
-                            <img className="img-card-founder-about" src="/assets/img/FounderAboutImg (3).png" alt="" />
-                            <h1 className="name-founder-card-about">Đoàn Đình Hoàng</h1>
-                            <p className="title-founder-card-about">Trưởng phòng Công nghệ</p>
+                            <img className="img-card-founder-about" src="/assets/img/laquocthang.png" alt="" />
+                            <h1 className="name-founder-card-about">Thầy La Quốc Thắng</h1>
+                            <p className="title-founder-card-about">Giáo viên hướng dẫn</p>
                         </div>
 
                         <div className="card-founder-about">
                             <img className="img-card-founder-about" src="/assets/img/FounderAboutImg (2).png" alt="" />
-                            <h1 className="name-founder-card-about">Đoàn Đình Hoàng</h1>
-                            <p className="title-founder-card-about">Trưởng phòng Công nghệ</p>
+                            <h1 className="name-founder-card-about">Nguyễn Quang Hưng</h1>
+                            <p className="title-founder-card-about">Font-end</p>
                         </div>
 
                         <div className="card-founder-about">
-                            <img className="img-card-founder-about" src="/assets/img/FounderAboutImg (1).png" alt="" />
-                            <h1 className="name-founder-card-about">Đoàn Đình Hoàng</h1>
-                            <p className="title-founder-card-about">Trưởng phòng Công nghệ</p>
+                            <img className="img-card-founder-about" src="/assets/img/quangdinh.png" alt="" />
+                            <h1 className="name-founder-card-about">Mai Quang Định</h1>
+                            <p className="title-founder-card-about">Designer</p>
                         </div>
                     </div>
                 </div>

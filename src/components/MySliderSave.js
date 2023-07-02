@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import CardSave from "./CardSave";
 
 const data = [
-  { img: "assets/img/xephangimg (1).png" },
+  { img: "assets/img/caphemilano.png" },
   { img: "assets/img/xephangimg (2).png" },
   { img: "assets/img/xephangimg (5).png" },
   { img: "assets/img/xephangimg (5).png" },

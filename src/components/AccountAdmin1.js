@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import Menu from "../components/Menu";
+import Menu from "./Menu";
 
-function Account() {
+function AccountAdmin1() {
     return (
         <Fragment>
             <div className="from-account">
@@ -12,20 +12,20 @@ function Account() {
 
                         </div>
                         <div className="from-between-account">
-                            <img src="/assets/img/img-account.png" className="img-account" alt="" />
+                            <img src="/assets/img/useradmin.png" className="img-account" alt="" />
                             <div className="from-input-account">
 
-                                <h3 className="text-caption text-thir-color">Họ và tên</h3>
-                                <input type="text" className="input-account margin-bot-32" name="" value="Lê Minh Thành" id="" />
+                                <h3 className="text-caption text-thir-color">Tên nhà vận chuyển</h3>
+                                <input type="text" className="input-account margin-bot-32" name="" value="Milano TP Hồ Chí Minh" id="" />
                                 <h3 className="text-caption text-thir-color">Vai trò</h3>
-                                <input type="text" className="input-account margin-bot-32" name="" value="Người dùng" id="" />
+                                <input type="text" className="input-account margin-bot-32" name="" value="Nhà sản xuất" id="" />
                                 <h3 className="text-caption text-thir-color">Số điện thoại</h3>
-                                <input type="text" className="input-account margin-bot-32" name="" value="0373 174 980" id="" />
+                                <input type="text" className="input-account margin-bot-32" name="" value="0929 110 873" id="" />
                                 <h3 className="text-caption text-thir-color">Email</h3>
-                                <input type="text" className="input-account margin-bot-32" name="" value="leminhthanh@gmail.com" id="" />
+                                <input type="text" className="input-account margin-bot-32" name="" value="milanohochiminh@gmail.com" id="" />
                                 <h3 className="text-caption text-thir-color">Địa chỉ</h3>
                                 <input type="text" className="input-account " name=""
-                                    value="10 Lê Đức Thọ, Phường 12, Tp. Buôn Mê Thuột, Dak..." id="" />
+                                    value="13 Hoang Van Thu, Phuong 1, Q. Tan Binh, TP. HCM" id="" />
 
                             </div>
                         </div>
@@ -43,4 +43,4 @@ function Account() {
         </Fragment>
     )
 }
-export default Account;
+export default AccountAdmin1;

@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import 'animate.css';
 
 import Index from './pages/Index';

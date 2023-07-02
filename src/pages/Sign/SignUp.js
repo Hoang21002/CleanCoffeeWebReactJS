@@ -11,10 +11,8 @@ function SignUp() {
 
                     <h3  className="text-caption text-thir-color">Bạn là ?</h3>
                     <select  className="input-sign-up" name="" id="" placeholder="Nông dân">
-                        <option value="php">Nông dân</option>
-                        <option value="python">Nhà phân phối</option>
-                        <option value="js">Nhà vận chuyển</option>
-                        <option value="rupy">Người tiêu dùng</option>
+                        <option value="php">Người tiêu dùng</option>
+                        <option value="python">Nhà sản xuất</option>
                     </select>
 
                     <h3  className="text-caption text-thir-color">Họ và tên</h3>
@@ -30,24 +28,24 @@ function SignUp() {
                     <div  className="box-select-sign-up">
                         <select  className="input-sign-up" name="" id="">
                             <option  className="text-center text-common-lab" value="php">Tỉnh</option>
-                            <option value="python">python</option>
-                            <option value="js">js</option>
-                            <option value="rupy">rupy</option>
-                            <option value="java">java</option>
+                            <option value="python">Lâm Đồng</option>
+                            <option value="js">Bà Rịa</option>
+                            <option value="rupy">Đồng nai</option>
+                            <option value="java">Sóc Trăng</option>
                         </select>
                         <select  className="input-sign-up" name="" id="">
                             <option  className="text-center text-common-lab" value="php">Thành Phố</option>
-                            <option value="python">python</option>
-                            <option value="js">js</option>
-                            <option value="rupy">rupy</option>
-                            <option value="java">java</option>
+                            <option value="python">Đà lạt</option>
+                            <option value="js">Vũng tàu</option>
+                            <option value="rupy"> Biên Hòa</option>
+                            <option value="java">Sóc Trăng</option>
                         </select>
                         <select  className="input-sign-up" name="" id="">
                             <option  className="text-center text-common-lab" value="php">Phường</option>
-                            <option value="python">python</option>
-                            <option value="js">js</option>
-                            <option value="rupy">rupy</option>
-                            <option value="java">java</option>
+                            <option value="python">1</option>
+                            <option value="js">2</option>
+                            <option value="rupy">3</option>
+                            <option value="java">4</option>
                         </select>
                         <input  className="input-sign-up text-center" type="text" placeholder="Số nhà" />
                     </div>

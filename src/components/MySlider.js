@@ -6,7 +6,7 @@ const data = [
   { img: "assets/img/xephangimg (1).png" },
   { img: "assets/img/xephangimg (2).png" },
   { img: "assets/img/xephangimg (5).png" },
-  { img: "assets/img/xephangimg (5).png" },
+  { img: "assets/img/xephangimg (6).png" },
   { img: "assets/img/xephangimg (10).png" },
   { img: "assets/img/xephangimg (12).png" },
   { img: "assets/img/xephangimg (13).png" },
