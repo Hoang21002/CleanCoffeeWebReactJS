@@ -11,11 +11,11 @@ function About() {
             {/* <!-- ------------------------------------SLIDER----------------------------------------> */}
             <div className="slider-about">
                 <div className="slider-content-about">
-                    <div className="slider-top-bot-about ">
+                    <div className="slider-top-bot-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                         <img className="img-slider-about" src="/assets/img/SliderAbout (2).png" alt="" />
                     </div>
 
-                    <div className="slider-top-bot-about ">
+                    <div className="slider-top-bot-about wow animate__animated animate__fadeInRight animate__delay-0.4s">
                         <div className="text-slider-about">
 
                             <h1 className="text-thir-color heading-slider-about">Chúng tôi là ai?</h1>
@@ -32,7 +32,7 @@ function About() {
                 </div>
 
                 <div className="slider-content-about">
-                    <div className="slider-top-bot-about ">
+                    <div className="slider-top-bot-about wow animate__animated animate__fadeInLeft animate__delay-0.4s">
                         <div className="text-slider-about">
                             <h1 className="text-thir-color heading-slider-about">Website này có thể giúp ích bạn được gì?</h1>
                             <p className="text-four-color title-slider-about">Hiện nay, trên thị trường có nhiều loại cafe không được đảm bảo chất
@@ -43,7 +43,7 @@ function About() {
                         </div>
                     </div>
 
-                    <div className="slider-top-bot-about ">
+                    <div className="slider-top-bot-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                         <img className="img-slider-about" src="/assets/img/SliderAbout (1).png" alt="" />
                     </div>
 
@@ -56,13 +56,13 @@ function About() {
             <div className="container-about">
                 {/* <!-- ---------------------------------------SERVICE ABOUT--------------------------- --> */}
                 <div className="container-service-about">
-                    <h1 className="text-thir-color header-container-about">DỊCH VỤ CỦA CHÚNG TÔI</h1>
+                    <h1 className="text-thir-color header-container-about wow animate__animated animate__fadeIn animate__delay-0.8s">DỊCH VỤ CỦA CHÚNG TÔI</h1>
                     <div className="cards-service-about">
                         <div className="card-service-about">
-                            <div className="card-top-service-about">
+                            <div className="card-top-service-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                                 <img className="img-card-service-about" src="/assets/img/ServiceAboutImg (1).png" alt="" />
                             </div>
-                            <div className="card-bot-service-about">
+                            <div className="card-bot-service-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                                 <h2 className="heading-card-service-about">Truy xuất cà phê</h2>
                                 <p className="title-card-service-about">Truy xuất nguồn gốc cà phê để giúp cho người dùng an tâm về
                                     chất lượng sản phẩm.</p>
@@ -70,10 +70,10 @@ function About() {
                         </div>
 
                         <div className="card-service-about">
-                            <div className="card-top-service-about">
+                            <div className="card-top-service-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                                 <img className="img-card-service-about" src="/assets/img/ServiceAboutImg (2).png" alt="" />
                             </div>
-                            <div className="card-bot-service-about">
+                            <div className="card-bot-service-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                                 <h2 className="heading-card-service-about">Truy xuất cà phê</h2>
                                 <p className="title-card-service-about">Truy xuất nguồn gốc cà phê để giúp cho người dùng an tâm về
                                     chất lượng sản phẩm.</p>
@@ -82,10 +82,10 @@ function About() {
                     </div>
                     <div className="cards-service-about">
                         <div className="card-service-about">
-                            <div className="card-top-service-about">
+                            <div className="card-top-service-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                                 <img className="img-card-service-about" src="/assets/img/ServiceAboutImg (3).png" alt="" />
                             </div>
-                            <div className="card-bot-service-about">
+                            <div className="card-bot-service-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                                 <h2 className="heading-card-service-about">Truy xuất cà phê</h2>
                                 <p className="title-card-service-about">Truy xuất nguồn gốc cà phê để giúp cho người dùng an tâm về
                                     chất lượng sản phẩm.</p>
@@ -93,10 +93,10 @@ function About() {
                         </div>
 
                         <div className="card-service-about">
-                            <div className="card-top-service-about">
+                            <div className="card-top-service-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                                 <img className="img-card-service-about" src="/assets/img/ServiceAboutImg (4).png" alt="" />
                             </div>
-                            <div className="card-bot-service-about">
+                            <div className="card-bot-service-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                                 <h2 className="heading-card-service-about">Truy xuất cà phê</h2>
                                 <p className="title-card-service-about">Truy xuất nguồn gốc cà phê để giúp cho người dùng an tâm về
                                     chất lượng sản phẩm.</p>
@@ -111,7 +111,7 @@ function About() {
 
                 {/* <!-- ---------------------------------------FOUDER ABOUT--------------------------- --> */}
 
-                <div className="container-founder-about">
+                <div className="container-founder-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                     <h1 className="text-thir-color header-container-about">NHÀ SÁNG LẬP</h1>
                     <div className="cards-founder-about">
                         <div className="card-founder-about">
@@ -147,7 +147,7 @@ function About() {
 
                 {/* <!-- ---------------------------------------FEEDBACK ABOUT--------------------------- --> */}
 
-                <div className="container-feedback-about">
+                <div className="container-feedback-about wow animate__animated animate__fadeIn animate__delay-0.8s">
                     <h1 className="text-thir-color header-container-about">NGƯỜI DÙNG NÓI GÌ ?</h1>
                     <div className="cards-feedback-about">
                         <div className="card-feedback-about">
@@ -256,8 +256,8 @@ function About() {
 
                 {/* <!-- ---------------------------------------CONTACT ABOUT--------------------------- --> */}
 
-                <div className="container-contact-about">
-                    <h1 className="text-thir-color header-container-about">NGƯỜI DÙNG NÓI GÌ ?</h1>
+                <div className="container-contact-about wow animate__animated animate__fadeIn animate__delay-0.8s">
+                    <h1 className="text-thir-color header-container-about">NHÀ TÀI TRỢ</h1>
                     <div className="box-contact-about">
                         <div className="card-contact-about">
                             <img className="img-card-contact-about" src="/assets/img/LogoAboutImg (1).png" alt="" />

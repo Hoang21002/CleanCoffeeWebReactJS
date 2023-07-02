@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Card = ({ img }) => {
+const CardSave = ({ img }) => {
     return (
         <div className="container-list-xephang-from">
             <Link to="/truyxuat"><img className="card-item-img margin-bot-20" src={img} alt="" /></Link>
@@ -16,13 +16,13 @@ const Card = ({ img }) => {
                     <img className="icon-star" src="/assets/Icons/Star.png" alt="" />
                 </div>
                 <p class="text-four-color">4.7 / 5.0</p>
-                <Link to="/save"><div class="box-button-like-xephang">
-                    <img src="/assets/Icons/Love.png" alt="" />
-                    <button class="bnt-like-xephang text-common-lab text-main-color">Yêu thích</button>
-                </div></Link>
+                <div class="box-button-like-xephang">
+                    <img src="/assets/Icons/Recycle Bin.png" alt="" />
+                    <button class="bnt-like-xephang text-common-lab text-main-color">Xóa</button>
+                </div>
             </div>
         </div>
     )
 }
 
-export default Card;
+export default CardSave;

@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card";
 import Slider from "react-slick";
+import CardSave from "./CardSave";
 
 const data = [
   { img: "assets/img/xephangimg (1).png" },
@@ -12,7 +12,7 @@ const data = [
   { img: "assets/img/xephangimg (13).png" },
   { img: "assets/img/xephangimg (11).png" },
 ]
-const MySlider = () => {
+const MySliderSave = () => {
 
   const settings = {
     className: "center",
@@ -34,7 +34,7 @@ const MySlider = () => {
     <div className="container-list-xephanh">
 
       <Slider {...settings}>
-        {data.map((el, index) => <Card key={index} img={el.img} />)}
+        {data.map((el, index) => <CardSave key={index} img={el.img} />)}
       </Slider>
 
     </div>
@@ -42,4 +42,4 @@ const MySlider = () => {
   )
 }
 
-export default MySlider;
+export default MySliderSave;

@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import Menu from "../components/Menu";
-import MySlider from "../components/MySlider";
 import Footer from "../components/Footer";
+import MySliderSave from "../components/MySliderSave";
 
-function XepHang() {
+function Save() {
     return (
         <Fragment>
             <Menu />
@@ -11,6 +11,7 @@ function XepHang() {
 
             {/* <!-- ------------------------------------CONTAINER----------------------------------------> */}
             <div className="container-xephang wow animate__animated animate__fadeIn animate__delay-0.8s">
+                <h1 className="container-title-xephang text-heading2 text-thir-color">Danh sách yêu thích</h1>
                 <div className="container-search-xephang">
                     <img className="icon-search-xephang" src="/assets/Icons/Search.png" alt="" />
                     <input id="find" className="input-search-xephang" type="text" maxlength="100" placeholder="Sản phẩm, nhà sản xuất,....." onkeyup="search()" />
@@ -20,47 +21,12 @@ function XepHang() {
 
                 <div className="container-content-xephang">
                     <div className="container-xephang-from">
-                        <h1 className="text-thir-color text-heading-name-xephang-from">Cafe Hòa Tan</h1>
-                        <MySlider />
+                        <h1 className="text-thir-color text-heading-name-xephang-from">Gần đây</h1>
+                        <MySliderSave />
                     </div>
                 </div>
 
-                <div className="container-content-xephang">
-
-
-                    <div className="container-xephang-from">
-
-                        <h1 className="text-thir-color text-heading-name-xephang-from">Cafe Rang Xay</h1>
-                        <MySlider />
-
-                    </div>
-
-
-                </div>
-
-                <div className="container-content-xephang">
-
-
-                    <div className="container-xephang-from">
-
-                        <h1 className="text-thir-color text-heading-name-xephang-from">Được Người Dùng Bình Chọn</h1>
-                        <MySlider />
-
-                    </div>
-
-
-                </div>
-
-                <div className="container-content-xephang">
-
-
-                    <div className="container-xephang-from">
-
-                        <h1 className="text-thir-color text-heading-name-xephang-from">Được Đánh Giá Cao Bởi Chuyên Gia</h1>
-                        <MySlider />
-
-                    </div>
-                </div>
+                
 
             </div>
 
@@ -74,4 +40,4 @@ function XepHang() {
     )
 }
 
-export default XepHang;
+export default Save;

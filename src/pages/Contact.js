@@ -9,13 +9,13 @@ function Contact() {
             <Menu />
             {/* <!-- ------------------------------------CONTAINER----------------------------------------> */}
             <div className="container-contact">
-                <div className="box-container-contact">
+                <div className="box-container-contact wow animate__animated animate__fadeInLeft animate__delay-0.8s">
                     <div className="text-box-container-contact">
                         <h1 className="text-heading2 text-thir-color">LIÊN HỆ</h1>
                         <p className="text-body2 text-four-color">Chào các bạn thân mến, chúng tôi cảm thấy vô cùng vinh dự nếu các bạn gửi cho chúng tôi những phản hồi tích cực và những đóng góp của các bạn để giúp chúng tôi ngày một cải thiện website. Những đóng góp của bạn chính là những tài sản quý giá để chúng tôi tiếp tục hoàn thiện sứ mệnh là giúp cho người tiêu dùng Việt Nam hay cả ngoài nước cảm thấy an tâm khi sử dụng các sản phẩm cafe từ chính quê nhả của mình. </p>
                     </div>
                 </div>
-                <div className="box-container-request">
+                <div className="box-container-request wow animate__animated animate__fadeInRight animate__delay-0.8s">
                     <div className="from-box-container-contact">
                         <h1 className="text-heading2 text-thir-color margin-bottom-40">Hãy gửi phản hồi của bạn</h1>
                         <div className="from-box-input-container-contact">

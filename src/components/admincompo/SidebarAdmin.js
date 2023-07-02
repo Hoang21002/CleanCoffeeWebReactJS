@@ -11,18 +11,24 @@ function SidebarAdmin() {
                         <p className="text-logo">cleancoffee</p>
                     </Link>
                 </div>
-                <div className="box-text-nav-admin">
-                    <img src="/assets/Icons/Sign.png" alt="" />
-                    <h3 className="text-common-lab">Đăng ký sản phầm</h3>
-                </div>
-                <div className="box-text-nav-admin">
-                    <img src="/assets/Icons/Procedure.png" alt="" />
-                    <h3 className="text-common-lab">Quy trình chăm sóc</h3>
-                </div>
-                <div className="box-text-nav-admin">
-                    <img src="/assets/Icons/Harvest.png" alt="" />
-                    <h3 className="text-common-lab">Thu hoạch</h3>
-                </div>
+                <Link to="/thumua">
+                    <div className="box-text-nav-admin">
+                        <img src="/assets/Icons/Purchase.png" alt="" />
+                        <h3 className="text-common-lab">Thu mua</h3>
+                    </div>
+                </Link>
+                <Link to="/chebien"><div className="box-text-nav-admin">
+                <img src="/assets/Icons/Factory.png" alt="" />
+                    <h3 className="text-common-lab">Chế biến</h3>
+                </div></Link>
+                <Link to="/vanchuyen"><div className="box-text-nav-admin">
+                    <img src="/assets/Icons/Truck.png" alt="" />
+                    <h3 className="text-common-lab">Vận chuyển</h3>
+                </div></Link>
+                <Link to="/phanphoi"><div className="box-text-nav-admin">
+                    <img src="/assets/Icons/Supermarket.png" alt="" />
+                    <h3 className="text-common-lab">Phân phối</h3>
+                </div></Link>
             </nav>
         </Fragment>
     )

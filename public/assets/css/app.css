@@ -206,6 +206,9 @@ button {
 .margin-bot-16 {
   margin-bottom: 16px;
 }
+.margin-bot-20 {
+  margin-bottom: 20px;
+}
 
 .margin-top-28 {
   margin-top: 28px;
@@ -560,7 +563,7 @@ footer .footer-bot .footer-icon-contact .icon-footer {
 }
 .slider-xephang .slider-xephang-text .slider-xephang-text-3 {
   font-size: 1.6rem;
-  font-weight: 400S;
+  font-weight: 400;
   margin-bottom: 2rem;
 }
 .slider-xephang .slider-xephang-text .slider-xephang-bnt {
@@ -632,6 +635,10 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   background: none;
   cursor: pointer;
 }
+.slick-slider.center.slick-initialized {
+  display: flex;
+}
+
 /* .container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .slick-prev {
 
 }
@@ -1166,14 +1173,13 @@ footer .footer-bot .footer-icon-contact .icon-footer {
 }
 .nav-admin .box-text-nav-admin {
   display: flex;
-  padding: 10px;
+  padding: 24px;
   gap: 0.8rem;
   align-items: center;
-  margin-bottom: 36px;
   cursor: pointer;
 }
 .nav-admin .box-text-nav-admin:hover {
-  background-color: #532E1C;
+  background-color: #296ae4;
   color: #FFFFFF;
 }
 
@@ -1222,19 +1228,18 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   margin-left: 25.6rem;
 }
 .container-admin-thumua {
   background-color: #F5F5F5;
   position: absolute;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-top: 6.8rem;
-  padding-top: 20px;
+  margin-top: 8.8rem;
+  /* padding-top: 20px; */
 }
 
 table {
@@ -1257,6 +1262,23 @@ tr:nth-child(1) {
 td:nth-child(10) {
   background-color: green;
   color: white;
+}
+.td-done{
+  background-color: rgb(52, 187, 52);
+  color: #FDFFF5;
+}
+.td-load{
+  background-color: rgb(236, 204, 18);
+  color: #FDFFF5;
+}
+
+.container-xephang .container-title-xephang {
+  display: flex;
+  align-items: center;
+  width: 92vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 56px;
 }
 /* .container-admin .from-admin {
   width: 80%;
