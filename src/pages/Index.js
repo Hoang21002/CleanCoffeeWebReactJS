@@ -50,7 +50,7 @@ function Index() {
             {/* <!-- ------------------------------------CONTAINER----------------------------------------> */}
             <div className="container">
                 <div className="box-text-container wow animate__animated animate__fadeInLeft ">
-                    <h1 className="text-heading2 text-thir-color margin-bot-60 ">VÌ SAO NÊN DÙNG ỨNG DỤNG TRUY XUẤT
+                    <h1 className="text-heading2 text-thir-color margin-bot-60 ">VÌ SAO NÊN DÙNG ỨNG DỤNG <br/> TRUY XUẤT
                         NGUỒN GỐC CAFE ?
                     </h1>
                     <p className="text-heading4 text-four-color margin-bot-48">1. Ngăn ngừa sản phẩm giả, kém chất lượng.</p>

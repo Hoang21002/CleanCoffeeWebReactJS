@@ -7,7 +7,7 @@ function AccountAdmin1() {
         <Fragment>
             <div className="from-account">
                         <div className="from-heading-account">
-                            <h1 className="text-heading3">TÀI KHOẢNG</h1>
+                            <h1 className="text-heading3">TÀI KHOẢN</h1>
                             <Link to="/signin"><img src="/assets/Icons/Sign Out.png" alt="" /></Link>
 
                         </div>

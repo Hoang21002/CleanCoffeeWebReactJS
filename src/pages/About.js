@@ -117,7 +117,7 @@ function About() {
                         <div className="card-founder-about">
                             <img className="img-card-founder-about" src="/assets/img/FounderAboutImg (4).png" alt="" />
                             <h1 className="name-founder-card-about">Đoàn Đình Hoàng</h1>
-                            <p className="title-founder-card-about">Font-end</p>
+                            <p className="title-founder-card-about">Lập trình viên</p>
                         </div>
 
                         <div className="card-founder-about">
@@ -129,13 +129,13 @@ function About() {
                         <div className="card-founder-about">
                             <img className="img-card-founder-about" src="/assets/img/FounderAboutImg (2).png" alt="" />
                             <h1 className="name-founder-card-about">Nguyễn Quang Hưng</h1>
-                            <p className="title-founder-card-about">Font-end</p>
+                            <p className="title-founder-card-about">Lập trình viên</p>
                         </div>
 
                         <div className="card-founder-about">
                             <img className="img-card-founder-about" src="/assets/img/quangdinh.png" alt="" />
                             <h1 className="name-founder-card-about">Mai Quang Định</h1>
-                            <p className="title-founder-card-about">Designer</p>
+                            <p className="title-founder-card-about">Thiết kế UX/UI</p>
                         </div>
                     </div>
                 </div>

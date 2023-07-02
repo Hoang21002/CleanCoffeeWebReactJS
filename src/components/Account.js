@@ -7,7 +7,7 @@ function Account() {
         <Fragment>
             <div className="from-account">
                         <div className="from-heading-account">
-                            <h1 className="text-heading3">TÀI KHOẢNG</h1>
+                            <h1 className="text-heading3">TÀI KHOẢN</h1>
                             <Link to="/signin"><img src="/assets/Icons/Sign Out.png" alt="" /></Link>
 
                         </div>
@@ -16,7 +16,7 @@ function Account() {
                             <div className="from-input-account">
 
                                 <h3 className="text-caption text-thir-color">Họ và tên</h3>
-                                <input type="text" className="input-account margin-bot-32" name="" value="Lê Minh Thành" id="" />
+                                <input type="text" className="input-account margin-bot-32" name="" value="Lê Minh Thành" id="" readonly />
                                 <h3 className="text-caption text-thir-color">Vai trò</h3>
                                 <input type="text" className="input-account margin-bot-32" name="" value="Người dùng" id="" />
                                 <h3 className="text-caption text-thir-color">Số điện thoại</h3>
