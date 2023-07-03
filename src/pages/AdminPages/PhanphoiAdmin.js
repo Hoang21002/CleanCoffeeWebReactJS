@@ -34,7 +34,7 @@ function PhanphoiAdmin() {
                             <td class="text-body2">100 bao *10kg</td>
                             <td class="text-body2">50 bịch * 2 kg</td>
 
-                            <td class="text-body2 td-done">Đã cập nhập</td>
+                            <td class="text-body2 td-done">Đã cập nhật</td>
                         </tr>
                         <tr>
                             <td class="text-body2">MLA00124</td>
@@ -47,7 +47,7 @@ function PhanphoiAdmin() {
                             <td class="text-body2">80 thùng * 10kg</td>
                             <td class="text-body2">20 bịch * 2 kg</td>
 
-                            <td class="text-body2 td-load">Chưa cập nhập</td>
+                            <td class="text-body2 td-load">Chưa cập nhật</td>
                         </tr>
 
 

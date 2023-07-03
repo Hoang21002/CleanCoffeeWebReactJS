@@ -24,8 +24,8 @@ function TruyXuat() {
                             <p className="text-common-sub text-four-color">9 Đinh Tiên Hoàng, P5, TP. Buôn Mê Thuột</p>
                             <h2 className="text-heading4 text-four-color">Nhà phân phối</h2>
                             <p className="text-common-sub text-four-color">Siêu thị Big C Đà Nẵng</p>
-                            <h2 className="text-heading4 text-four-color">Ngày mua hàng</h2>
-                            <p className="text-common-sub text-four-color">8/9/2023</p>
+                            <h2 className="text-heading4 text-four-color">Hạn sử dụng</h2>
+                            <p className="text-common-sub text-four-color">3/10/2028</p>
                         </div>
 
 
